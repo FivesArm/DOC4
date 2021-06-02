@@ -1,0 +1,32 @@
+## Contenu de la case
+## Version 0.1
+## ----------------------------------------------Améliorations:----------------------------
+##Grafana tient compte uniquement du dernier stylename. Il est nécessaire de fusionner les 2 stylename OF_de_pointage et Atelier
+##
+##
+##
+##
+# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libelle%</i>
+##
+#style : fillColor=%Fill%;strokeColor=%Contour%;strokeWidth=3;html=1;
+# namespace: csvimport-
+# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "endArrow=blockThin;curved=0;endFill=1;orthogonalLoop=1;jettySize=auto;html=1;"}
+# left: 
+# top: 
+# width: auto
+# height: auto
+# padding: 0
+# ignore:
+# link: url
+# nodespacing: 30
+# levelspacing: 80
+# edgespacing: 20
+## Name or JSON of layout. Possible values are auto, none, verticaltree, horizontaltree,verticalflow, horizontalflow, organic, circle or a JSON string as used in Layout, Apply.Default is auto.
+# layout: horizontalflow
+## ---- CSV below this line. First line are column names. ----
+Poney,Mq,Ordre_de_fabrication,Article,Reference_document,Libelle,Stade,Type,OF_Pere,Atelier,Depot,Date_de_debut_demandee,Date_de_fin_demandee,Date_de_debut__actuelle_jalonnee,Date_de_fin_actuelle_jalonnee,Quantite_lancee_theorique,Quantite_nette_theorique,Quantite_lancee_reelle,Quantite_nette_realisee,Quantite_de_rebut_realisee,Quantite_de_perte_realisee,Unite,Gestionnaire_production,Plan,Priorite,Type__de__gestion,Ligne,Client,Client,Methode_de_valorisation,Methode_de_valorisation,N°_de_serie,Annee_de_creation,Ann,Complet_pour_Fab,Fabrication_en_cours,Fabrication_terminee,OF_de_pointage,Contour,Fill
+,,00013229,0000001047129,20038C01,OPERATION HYDRAULIQUE,Lancé,O.F. Normal,,,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#000000,#E1D5E7
+,,00013228,0000001047128,20038C01,OPERATION MONTAGE,Planifié,O.F. Normal,,MON,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#800499,#E1D5E7
+,,00013227,0000001047127,20038C01,OPERATION CABLAGE,Lancé,O.F. Normal,,CAB,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Décoché,Coché,#018723,#E1D5E7
+,,00013226,0000001047126,20038C01,OPERATION BRASAGE,Planifié,O.F. Normal,,BRA,0101,,09/07/2021,09/07/2021,09/07/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#BA6800,#E1D5E7
+,,00013009,0000020038C01,20038C01,Coffret 3 Zones n°C7703 long délai,Lancé,O.F. Normal,,,0101,,26/02/2021,05/05/2021,05/05/2021,"1,000","1,000",,,,,PIE,Roland SCHURHAMMER,,,AFF,,00003777,ARIANEGROUP SAS,,DEFAUT,,2020,Décoché,Coché,Coché,Indéterminé,Indéterminé,#000000,#FFF2CC

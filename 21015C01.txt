@@ -1,0 +1,45 @@
+## Contenu de la case
+## Version 0.1
+## ----------------------------------------------Améliorations:----------------------------
+##Grafana tient compte uniquement du dernier stylename. Il est nécessaire de fusionner les 2 stylename OF_de_pointage et Atelier
+##
+##
+##
+##
+# label: %Ordre_de_fabrication%<br><i style="color:gray;">%Article%</i><br><i style="color:gray;">%Libelle%</i>
+##
+#style : fillColor=%Fill%;strokeColor=%Contour%;strokeWidth=3;html=1;
+# namespace: csvimport-
+# connect: {"from": "OF_Pere", "to": "Ordre_de_fabrication", "invert": false, "style": "endArrow=blockThin;curved=0;endFill=1;orthogonalLoop=1;jettySize=auto;html=1;"}
+# left: 
+# top: 
+# width: auto
+# height: auto
+# padding: 0
+# ignore:
+# link: url
+# nodespacing: 30
+# levelspacing: 80
+# edgespacing: 20
+## Name or JSON of layout. Possible values are auto, none, verticaltree, horizontaltree,verticalflow, horizontalflow, organic, circle or a JSON string as used in Layout, Apply.Default is auto.
+# layout: horizontalflow
+## ---- CSV below this line. First line are column names. ----
+Poney,Mq,Ordre_de_fabrication,Article,Reference_document,Libelle,Stade,Type,OF_Pere,Atelier,Depot,Date_de_debut_demandee,Date_de_fin_demandee,Date_de_debut__actuelle_jalonnee,Date_de_fin_actuelle_jalonnee,Quantite_lancee_theorique,Quantite_nette_theorique,Quantite_lancee_reelle,Quantite_nette_realisee,Quantite_de_rebut_realisee,Quantite_de_perte_realisee,Unite,Gestionnaire_production,Plan,Priorite,Type__de__gestion,Ligne,Client,Client,Methode_de_valorisation,Methode_de_valorisation,N°_de_serie,Annee_de_creation,Ann,Complet_pour_Fab,Fabrication_en_cours,Fabrication_terminee,OF_de_pointage,Contour,Fill
+,,00013237,0000001047107,21015C01,CABLE DE LITZ NOIR EQUIPEE,Figé (édité),O.F. Normal,00013222,MON,0101,,11/06/2021,11/06/2021,11/06/2021,"2,000","2,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#800499,#FFFFFF
+,,00013235,0000001047129,21015C01,OPERATION HYDRAULIQUE,Planifié,O.F. Normal,00013222,,0101,,18/06/2021,15/06/2021,18/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#000000,#E1D5E7
+,,00013234,0000001047127,21015C01,OPERATION CABLAGE,Planifié,O.F. Normal,00013222,CAB,0101,,18/06/2021,17/06/2021,18/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#018723,#E1D5E7
+,,00013233,0000001047126,21015C01,OPERATION BRASAGE,Planifié,O.F. Normal,00013222,BRA,0101,,18/06/2021,16/06/2021,18/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#BA6800,#E1D5E7
+,,00013232,0000001047128,21015C01,OPERATION MONTAGE,Planifié,O.F. Normal,00013222,MON,0101,,18/06/2021,14/06/2021,18/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,,,AFF,,,,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Coché,#800499,#E1D5E7
+Manquants,4,00013222,21015C01-0001,21015C01,Coffret IP55 General Dynamics,Lancé,O.F. Normal,,MON,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,,François DUCLOUX,21015C01-0001,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Décoché,#800499,#FFFFFF
+Manquants,5,00013221,21015C01-0002,21015C01,Ensemble bâti,Figé (édité),O.F. Normal,00013222,MON,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,21015C01-0002,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#800499,#FFFFFF
+,,00013220,B000000782058,21015C01,Bloc moulé,Lancé,O.F. Normal,00013221,MON,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000782058,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#800499,#FFFFFF
+,,00013219,B000000782075,21015C01,Bloc de sortie avec raccord,Lancé,O.F. Normal,00013220,MON,0101,,28/05/2021,28/05/2021,28/05/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000782075,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Coché,Décoché,Indéterminé,Indéterminé,#800499,#D5E8D4
+,,00013218,B000000782068,21015C01,Bloc de sortie avec raccord,Lancé,O.F. Normal,00013220,MON,0101,,28/05/2021,31/05/2021,31/05/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000782068,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Coché,Indéterminé,Indéterminé,Indéterminé,#800499,#D5E8D4
+Manquants,3,00013217,21015C01-0003,21015C01,Ensemble transfo/CAPA,Lancé,O.F. Normal,00013222,MON,0101,,07/06/2021,07/06/2021,07/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,21015C01-0003,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Décoché,#800499,#FFFFFF
+Manquants,1,00013216,B000000781811,21015C01,Connexion primaire,Figé (édité),O.F. Normal,00013217,BRA,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000781811,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
+Manquants,1,00013215,B000000781798,21015C01,Connexion primaire,Figé (édité),O.F. Normal,00013217,BRA,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000781798,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
+Manquants,1,00013214,B000000781394,21015C01,Plage avant CAPA 1-2,Figé (édité),O.F. Normal,00013217,BRA,0101,,28/05/2021,28/05/2021,28/05/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000781394,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
+Manquants,1,00013213,B000000781354,21015C01,Plage après CAPA 3-4,Figé (édité),O.F. Normal,00013217,BRA,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000781354,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
+Manquants,1,00013212,B000000781269,21015C01,Plage après CAPA 1-2,Figé (édité),O.F. Normal,00013217,BRA,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000781269,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
+Manquants,1,00013211,B000000781259,21015C01,Plage brasée retour,Figé (édité),O.F. Normal,00013217,BRA,0101,,28/05/2021,01/06/2021,01/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000781259,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
+,,00013210,B000000289604,21015C01,Plage avant CAPA 3-4,Figé (édité),O.F. Normal,00013217,BRA,0101,09/06/2021,14/06/2021,09/06/2021,09/06/2021,"1,000","1,000",,,,,PIE,François DUCLOUX,B000000289604,,AFF,,00000217,GENERAL DYNAMICS ORDNANCE AND,OF,Coût de l_O.F. Pré-établi théo,,2021,Décoché,Indéterminé,Indéterminé,Indéterminé,Indéterminé,#BA6800,#FFFFFF
